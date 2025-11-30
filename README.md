@@ -4,6 +4,8 @@
 
 This project implements a serverless microservice architecture on AWS. While the initial description was brief, the repository appears to focus on utilizing AWS Lambda, API Gateway, and DynamoDB for building scalable and cost-effective applications. The included files suggest functionalities around data storage, retrieval, and manipulation using DynamoDB, triggered by API Gateway endpoints and handled by Lambda functions.
 
+![Serverless Architecture Overview](Diagram/aws-serverless-architecture.png)
+
 ## Key Features & Benefits
 
 *   **Serverless Architecture:** Leverage AWS Lambda for on-demand execution, eliminating the need for server management.
@@ -146,3 +148,4 @@ This project leverages the following AWS services:
 *   Amazon API Gateway
 *   Amazon DynamoDB
 *   Boto3 (AWS SDK for Python)
+
