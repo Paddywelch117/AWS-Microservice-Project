@@ -95,14 +95,14 @@ Follow these steps to deploy the microservice:
     *   Use the "Test" functionality within the AWS Lambda console and the AWS API Gateway console to send a test JSON payload as shown in the `Testfunction.json` file.
     *   Verify the results in DynamoDB by using the DynamoDB console.
   
-![POST Method Test Result](Images/api-gateway-post-test-result.png)
-
-*Figure: Successful POST request to `/DynamoDBOperations`, confirming item creation in DynamoDB with response metadata.*
-
----
 ![DynamoDB Scan Results](Images/dynamodb-scan-lambda-apigateway.png)
 
 *Figure: Scan operation on `lambda-apigateway` table returning two items with 100% efficiency.*
+
+---
+![POST Method Test Result](Images/api-gateway-post-test-results.png)
+
+*Figure: Successful POST request to `/DynamoDBOperations`, confirming item creation in DynamoDB with response metadata.*
 
 ---
 ## Usage Examples & API Documentation
@@ -189,5 +189,6 @@ This project leverages the following AWS services:
 *   Amazon API Gateway
 *   Amazon DynamoDB
 *   Boto3 (AWS SDK for Python)
+
 
 
